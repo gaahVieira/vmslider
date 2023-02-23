@@ -24,7 +24,7 @@ if( !class_exists( 'MV_Slider_Post_Type') ){
                     'public'    => true,
                     'supports'  => array( 'title', 'editor', 'thumbnail' ),
                     'hierarchical'  => false,
-                    'show_ui'   => true,
+                    'show_ui'   => false,
                     'show_in_menu'  => true,
                     'menu_position' => 5,
                     'show_in_admin_bar' => true,
